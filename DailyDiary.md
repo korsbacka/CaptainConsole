@@ -7,6 +7,17 @@
 | 29/04/2020 | Finished the wireframes, took interviews with 2 people, finished the requirement analysis report. |
 | 30/04/2020 | Mocked up prototype from the wireframes and took into account the outcome from the wireframe interviews. Finished interviewing for the prototype. |
 | 01/05/2020 | Finished class diagram, navigation diagram, state diagram, sequence diagram, programming rules, changed the protoype to reflect the comments made during user testing, finished the design report. |
-| 01/05/2020 |  |
 | 02/05/2020 |  |
 | 03/05/2020 |  |
+| 04/05/2020 |  |
+| 05/05/2020 |  |
+| 06/05/2020 |  |
+| 07/05/2020 |  |
+| 08/05/2020 |  |
+| 09/05/2020 |  |
+| 10/05/2020 |  |
+| 11/05/2020 |  |
+| 12/05/2020 |  |
+| 13/05/2020 |  |
+| 14/05/2020 |  |
+| 15/05/2020 |  |
