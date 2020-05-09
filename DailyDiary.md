@@ -8,13 +8,13 @@
 | 30/04/2020 | Mocked up prototype from the wireframes and took into account the outcome from the wireframe interviews. Finished interviewing for the prototype. |
 | 01/05/2020 | Finished class diagram, navigation diagram, state diagram, sequence diagram, programming rules, changed the protoype to reflect the comments made during user testing, finished the design report. |
 | 02/05/2020 | Started going through Candy Queen tutorial. Finished 01+02+03+04. |
-| 03/05/2020 |  |
-| 04/05/2020 |  |
-| 05/05/2020 |  |
-| 06/05/2020 |  |
-| 07/05/2020 |  |
-| 08/05/2020 |  |
-| 09/05/2020 |  |
+| 03/05/2020 | - |
+| 04/05/2020 | - |
+| 05/05/2020 | Finished 05+06 in Candy Queen tutorial, looked at some tutorials |
+| 06/05/2020 | Finished 07 in Candy Queen tutorial, looked at tutorials |
+| 07/05/2020 | - |
+| 08/05/2020 | Finished 08 in Candy Queen tutorial, looked at tutorials |
+| 09/05/2020 | Finished 09 in Candy Queen tutorial |
 | 10/05/2020 |  |
 | 11/05/2020 |  |
 | 12/05/2020 |  |
