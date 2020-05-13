@@ -1,0 +1,24 @@
+<!--
+<div class="single-game">
+    <a href="/games/{{ game.id }}">
+        <img class="game-img" src="{{ game.gameimage_set.first.game_image_image }}" />
+        <h4>{{ game.game_name }}</h4>
+    </a>
+-->
+<div class="col-md-4 mb-4">
+    <div class="card h-100">
+        <a href="/games/{{ game.id }}">
+            <img src="{{ game.gameimage_set.first.game_image_image }}" class="card-img-top" alt="game image card" style="height: 20rem;">
+            <div class="card-img-overlay">
+                <h2>
+                    <span class="badge badge-secondary text-white">${{ game.game_price }}</span>
+                </h2>
+            </div>
+        </a>
+        <div class="card-body">
+            <h5 class="card-title">{{ game.game_name }}</h5>
+            <small class="text-muted">Genre: TODO</small>
+        </div>
+        <a href="#" class="btn btn-primary btn-block">ADD TO CART</a>
+    </div>
+</div>

@@ -1,12 +1,12 @@
 | Number | Name/Description | Priority | Status | Date
 | :-: | --- | :-: | :-: | :-: |
-| 1 | System should allow customers to register | A | |  |
-| 2 | System should allow customers to log in | A | |  |
+| 1 | System should allow customers to register | A | Done |  |
+| 2 | System should allow customers to log in | A | Done |  |
 | 3 | System should be able to process orders made online | A | |  |
-| 4 | System should be able to store a name and an image for logged in customers | A | |  |
-| 5 | System should be able to store a product listing with the name, images of the product and a long description | A | |  |
-| 6 | Customer should be able to register | A |  |  |
-| 7 | Customer should be able to log in  | A |  |  |
+| 4 | System should be able to store a name and an image for logged in customers | A | Done |  |
+| 5 | System should be able to store a product listing with the name, images of the product and a long description | A | Done |  |
+| 6 | Customer should be able to register | A | Done |  |
+| 7 | Customer should be able to log in  | A | Done |  |
 | 8 | Customer should be able to view available products | A |  |  |
 | 9 | Customer should be able to filter available products by type | A |  |  |
 | 10 | Customer should be able to search products by name | A |  |  |
@@ -18,10 +18,10 @@
 | 16 | Customer should be able to input credit card information which included the name of the cardholder, card number, expiration date and CVC | A |  |  |
 | 17 | Customer should be able to review his order before confirming a purchase | A |  |  |
 | 18 | Customer should get a confirmation that the order went through | A |  |  |
-| 19 | Logged in customer should be able to do all the things that a customer can do | A |  |  |
-| 20 | Logged in customer should be able to log out | A |  |  |
-| 21 | Logged in customer should be able to change his name | A |  |  |
-| 22 | Logged in customer should be able to change his profile picture | A |  |  |
+| 19 | Logged in customer should be able to do all the things that a customer can do | A | Done |  |
+| 20 | Logged in customer should be able to log out | A | Done |  |
+| 21 | Logged in customer should be able to change his name | A | Done |  |
+| 22 | Logged in customer should be able to change his profile picture | A | Done |  |
 | 23 | Logged in customer should be able to view his search history | A |  |  |
 | 24 | System should allow administrator to register employees | B |  |  |
 | 25 | System should allow employees to log in | B |  |  |

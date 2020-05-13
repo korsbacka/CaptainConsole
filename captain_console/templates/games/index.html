@@ -1,4 +1,18 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h2>Welcome to the Games app</h2>
+    {% include 'games/showcase.html' %}
+    <div class="container">
+        <div class="row">
+            {% if games %}
+                {% for game in games %}
+                    {% include 'games/single_game.html' with game=game %}
+                {% endfor %}
+            {% else %}
+                <div class="col-md-12">
+                    <p>No games available for sale</p>
+                </div>
+            {% endif %}
+        </div>
+        {% include 'games/paginator.html' %}
+    </div>
 {% endblock %}

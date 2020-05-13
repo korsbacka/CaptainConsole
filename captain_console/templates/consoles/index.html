@@ -1,4 +1,10 @@
 {% extends 'base.html' %}
 {% block content %}
     <h2>Welcome to the Consoles app</h2>
+    <div class="consoles">
+        {% for console in consoles %}
+            <h4>{{ console.console_name }}</h4>
+            <h4>{{ console.console_category }}</h4>
+        {% endfor %}
+    </div>
 {% endblock %}

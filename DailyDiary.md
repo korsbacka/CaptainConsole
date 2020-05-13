@@ -16,8 +16,8 @@
 | 08/05/2020 | Finished 08 in Candy Queen tutorial, looked at tutorials |
 | 09/05/2020 | Finished 09 in Candy Queen tutorial |
 | 10/05/2020 | Finished Candy Queen tutorial, setup project, setup database connection, made consoles app and games app and started on html |
-| 11/05/2020 |  |
-| 12/05/2020 |  |
+| 11/05/2020 | Worked on getting the database connection and populating the database with entries |
+| 12/05/2020 | Finished login, sign up, user profile, started work on product listings |
 | 13/05/2020 |  |
 | 14/05/2020 |  |
 | 15/05/2020 |  |

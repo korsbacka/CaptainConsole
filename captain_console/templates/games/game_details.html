@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container">
+        <div class="py-5 row text-center">
+            <div class="col-md-12">
+                <h2 class="display-4">{{ game.game_name }}</h2>
+                <p class="lead">
+                    {{ game.game_short_description }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'games_index' %}">Games</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ game.game_name }}</li>
+        </ol>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <img src="{{ game.gameimage_set.first.game_image_image }}" alt="main-product-image" class="img-main col-sm-4">
+            <div class="col-sm-8">
+                <h2>{{ game.game_name }}</h2>
+                <hr>
+                <p>{{ game.game_long_description }}</p>
+                <hr>
+                <ul class="list-unstyled">
+                    <li>Genre: {{ game.game_genre }}</li>
+                    <li>Publisher: {{ game.game_publisher }}</li>
+                    <li>Price: {{ game.game_price }}</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <a href="{% url 'games_index' %}" class="btn btn-light mb-4">Back to games</a>
+    </div>
+{% endblock %}
