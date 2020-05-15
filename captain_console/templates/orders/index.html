@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% block content %}
 <h1>Orders</h1>
+    {{ billing.cvc_number }}
+    {{ order }}
     <h3>Your order includes: </h3>
         <table class="table">
           <thead>
@@ -24,8 +26,9 @@
             </tr>
             <tr>
                 <th colspan="2"></th>
-                <td><a class="btn btn-lg btn-success" href="{% url 'orders_index' %}">Confirm Order</a></td>
+                <td><a class="btn btn-lg btn-success" href="{% url 'billing' %}">Confirm Order</a></td>
             </tr>
           </tbody>
         </table>
+
 {% endblock %}
