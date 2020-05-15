@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>My cart</h1>
+
+    {% if cart.consoles.exists %}
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Console Name</th>
+      <th scope="col">Console Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for console in cart.consoles.all %}
+    <tr>
+      <th scope="row">{{ forloop.counter }}</th>
+      <td>{{ console.console_name }}
+        {% include 'consoles/update_cart.html' with console=console cart=cart in_cart=True %}
+      </td>
+        <td>{{ console.console_price }}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+        <th colspan="2"></th>
+        <td><b>Total: </b>{{ cart.total }}</td>
+    </tr>
+    <tr>
+        <th colspan="2"></th>
+        <td><a class="btn btn-lg btn-success" href="{% url 'orders_index' %}">Order</a></td>
+    </tr>
+  </tbody>
+</table>
+
+    {% else %}
+    <p class="lead">Cart does not contain anything</p>
+    {% endif %}
+{% endblock %}

@@ -1,16 +1,29 @@
- .card-text{
-    font-size:19px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+.jumbotron {
+    background-image: url("/static/images/jumbotron.jpg");
+    background-size: cover;
+    color: #FFFFFF;
 }
 
-.breadcrumb {background: rgba(255, 255, 255, 1); display: block;}
-
-.bg-custom-1 {
-  background-color: #85144b;
+.jumbo-text {
+    padding-left: 40px;
 }
 
-.bg-custom-2 {
-background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+.jumbo-subtext {
+    padding-left: 80px;
+}
+
+.front-consoles {
+}
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h2 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
 }

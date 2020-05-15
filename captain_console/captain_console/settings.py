@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'consoles.apps.ConsolesConfig',
     'games.apps.GamesConfig',
     'user.apps.UserConfig',
+    'cart.apps.CartConfig',
+    'orders.apps.OrdersConfig',
 ]
 
 MIDDLEWARE = [
@@ -133,3 +135,4 @@ STATICFILES_DIRS = [
 LOGIN_URL = 'user/login'
 LOGIN_REDIRECT_URL = '/user/profile'
 
+CART_SESSION_ID = 'cart'

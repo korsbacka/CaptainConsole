@@ -34,6 +34,12 @@
                 </ul>
             </div>
         </div>
+        {{ cart }}
+        {% if game in cart.consoles.all %}
+            In cart
+        {% else %}
+            Add to cart
+        {% endif %}
 
 
         <a href="{% url 'games_index' %}" class="btn btn-light mb-4">Back to games</a>

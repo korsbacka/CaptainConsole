@@ -1,10 +1,18 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h2>Welcome to the Consoles app</h2>
-    <div class="consoles">
-        {% for console in consoles %}
-            <h4>{{ console.console_name }}</h4>
-            <h4>{{ console.console_category }}</h4>
-        {% endfor %}
+    {% include 'consoles/showcase.html' %}
+    <div class="container">
+        <div class="row">
+            {% if console %}
+                {% for con in console %}
+                    {% include 'consoles/single_console.html' with console=con %}
+                {% endfor %}
+            {% else %}
+                <div class="col-md-12">
+                    <p>No consoles available for sale</p>
+                </div>
+            {% endif %}
+        </div>
+        {% include 'consoles/paginator.html' %}
     </div>
 {% endblock %}

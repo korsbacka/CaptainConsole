@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Orders</h1>
+    <h3>Your order includes: </h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Console Name</th>
+              <th scope="col">Console Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for console in cart.consoles.all %}
+            <tr>
+              <th scope="row">{{ forloop.counter }}</th>
+              <td>{{ console.console_name }}</td>
+                <td>{{ console.console_price }}</td>
+            </tr>
+            {% endfor %}
+            <tr>
+                <th colspan="2"></th>
+                <td><b>Total: </b>{{ cart.total }}</td>
+            </tr>
+            <tr>
+                <th colspan="2"></th>
+                <td><a class="btn btn-lg btn-success" href="{% url 'orders_index' %}">Confirm Order</a></td>
+            </tr>
+          </tbody>
+        </table>
+{% endblock %}

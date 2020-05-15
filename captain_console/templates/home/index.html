@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="jumbotron jumbotron-fluid">
+        <div class="jumbo-text">
+            <h2>Captain Console</h2>
+        </div>
+        <div class="jumbo-subtext">
+            <h5>your source for gaming</h5>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h4>SHOP BY TOP BRANDS</h4>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <a href="/consoles/search/?query=microsoft">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71P0nILf%2BvL._AC_SL1500_.jpg" alt="top-brand-microsoft" class = "img-responsive" width = "100%" />
+                    <div class="card-img-overlay">
+                        <h2>
+                            <span class="badge badge-secondary text-white">Microsoft</span>
+                        </h2>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6">
+                <a href="/consoles/search/?query=sony">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/71PGvPXpk5L._AC_SL1500_.jpg" alt="top-brand-sony" class ="img-responsive" width = "100%"/>
+                    <div class="card-img-overlay">
+                        <h2>
+                            <span class="badge badge-secondary text-white">Sony</span>
+                        </h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+            <!--<div class="col">
+                <div>
+                    <a href="/consoles/search/?query=nintendo">
+                        <div class="image">
+                            <img src="https://www.nintendo.com/content/dam/noa/en_US/hardware/switch/nintendo-switch-new-package/gallery/bundle_color_console%20(3).jpg" alt="" />
+                            <div class="card-img-overlay">
+                                <h2>
+                                    <span class="badge badge-secondary text-white">Nintendo</span>
+                                </h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>-->
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% if query %}
+        <h1>Search for Consoles</h1>
+        <form method="get">
+        {{ form.as_p }}
+        <input type="submit" value="Search">
+        </form>
+        <h1>Consoles containing "{{ query }}"</h1>
+        <h3>
+            {% with results.count as total_results %}
+            Found {{ total_results }} result{{ total_results|pluralize }}
+            {% endwith %}
+        </h3>
+        <div class="container">
+            <div class="row">
+                {% for console in results %}
+                    {% include 'consoles/single_console.html' with console=console %}
+                {% endfor %}
+            </div>
+            {% include 'consoles/paginator.html' %}
+        </div>
+    {% else %}
+        <h1>Search for Consoles</h1>
+        <form method="get">
+        {{ form.as_p }}
+        <input type="submit" value="Search">
+        </form>
+    {% endif %}
+{% endblock %}

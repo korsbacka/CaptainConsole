@@ -1,0 +1,15 @@
+<div class="col-md-4 mb-4">
+    <div class="card h-100">
+        <a href="/consoles/{{ console.id }}">
+            <img src="{{ console.consoleimage_set.first.console_image_image }}" class="card-img-top" alt="console image card" style="height: 20rem;">
+            <div class="card-img-overlay">
+                <h2>
+                    <span class="badge badge-secondary text-white">${{ console.console_price }}</span>
+                </h2>
+            </div>
+        </a>
+        <div class="card-body">
+            <h5 class="card-title">{{ console.console_name }}</h5>
+        </div>
+    </div>
+</div>
