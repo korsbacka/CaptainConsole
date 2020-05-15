@@ -20,4 +20,4 @@
 | 12/05/2020 | Finished login, sign up, user profile, started work on product listings |
 | 13/05/2020 | Worked on product listings, started working with cart |
 | 14/05/2020 | Finished Cart and started on the order process |
-| 15/05/2020 |  |
+| 15/05/2020 | Couldn't figure out the order process in time, finished making the site ready and the presentation |
